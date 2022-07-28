@@ -8,24 +8,6 @@ body{
 }
 /* //Common CSS End */
 
-/* Bootstrap Reset CSS Start */
-h1, h2, h3, h4, h5, h6,
-p,
-small,
-ul,
-ol,
-address{
-    margin: 0;
-    padding: 0;
-}
-ul, ol{
-    list-style-type: none;
-}
-a, a:hover{
-    text-decoration: none;
-}
-/* //Bootstrap Reset CSS End */
-
 /* Navigation Section CSS Start */
 nav a.navbar-brand{
     color: #4A4A4A;
