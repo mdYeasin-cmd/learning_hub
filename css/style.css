@@ -1,0 +1,35 @@
+/* Google Fonts Link Start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* //Google Fonts Link End */
+
+/* Common CSS Start */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* //Common CSS End */
+
+/* Bootstrap Reset CSS Start */
+h1, h2, h3, h4, h5, h6,
+p,
+small,
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style-type: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* //Bootstrap Reset CSS End */
+
+/* Navigation Section CSS Start */
+nav a.navbar-brand{
+    color: #4A4A4A;
+}
+nav .nav_menu_wrapper ul li a{
+    color: #777777;
+}
+/* //Navigation Section CSS End */
