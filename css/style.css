@@ -13,7 +13,8 @@ h1, h2, h3, h4, h5, h6,
 p,
 small,
 ul,
-ol{
+ol,
+address{
     margin: 0;
     padding: 0;
 }
@@ -60,6 +61,11 @@ nav .nav_menu_wrapper ul li a{
 }
 /* //Courses Section CSS End */
 
-/* Ready To Join Section CSS Start */
-
-/* //Ready To Join Section CSS End */
+/* Footer Section CSS Start */
+.social_icon a{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background: rgba(255, 255, 255, 0.3);
+}
+/* //Footer Section CSS End */
