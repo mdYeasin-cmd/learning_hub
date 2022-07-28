@@ -1,6 +1,0 @@
-2/ What are the differences between Bootstrap and Tailwind?
-Bootstrap is a components based responsive CSS framework. Bootstrap contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, icons, and other interface components. Bootstrap helps to design and develop website templates quickly.
-Tailwind CSS is a utility-first CSS framework for building custom user interfaces rapidly and efficiently. It is an inline styling used to achieve a sleek interface without writing code for your own CSS.
-
-4/ What is semantic elements?
-Semantic elements have meaningful names which tells about type of content.The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
