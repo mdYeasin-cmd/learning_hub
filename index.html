@@ -274,19 +274,64 @@
 
         <!-- Ready To Join Section Start -->
         <section id="readyToJoin">
-            <div class="container">
+            <div class="container my-5">
                 <div class="card bg-info border-0 mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold fs-2 text-white">Ready To Join?</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="row align-items-center g-0">
+                        <div class="col-md-8 p-5">
+                            <div class="card-body text-white">
+                                <h5 class="card-title fw-bold fs-2">Ready To Join?</h5>
+                                <p class="card-text pt-3">
+                                    It can be a good decision. Our facilities will satisfy you. Don't hesitate to join
+                                    us. We will support you with our best services.
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <img src="..." class="img-fluid rounded-start" alt="...">
+
+                            <!-- Button trigger modal -->
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-light text-info fw-bold px-5 py-2"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Sign Up
+                                </button>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">User
+                                                    Name</label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Email
+                                                    address</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1"
+                                                    class="form-label">Password</label>
+                                                <input type="password" class="form-control"
+                                                    id="exampleFormControlInput1">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
